@@ -1,3 +1,63 @@
 .myimage{
-    filter: brightness(50%);
+    filter: brightness(40%);}
+@media only screen and (max-width: 660px) {
+    .nav-width{
+        width: 23%;
+       }
+    .carousel-item img{
+        height: 130vw;
+    }
+    .text-size{
+        font-size: 14px;
+    }
+    .postion-left{
+       position: relative;
+       left: 25px;
+    }
+    .postion-left1{
+        position: relative;
+        right: 12px;
+    }
+    .register-margin{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .mobile-width{
+        width: 100%;
+    }
+    .slide-width{
+        width: 70%;
+    }
+    .auto{
+        text-align: center;
+    }
+    .auto1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .auto2{
+        position: relative;
+        left: 100px;
+    }
+    .margin-top1{
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
 }
+@media only screen and (min-width: 661px) and (max-width: 991px) {
+    .nav-width{
+        width: 52%;
+       }
+    .btn-position{
+        position: relative;
+        left: 120px;
+    }
+    .carousel-item img{
+        height: 60vw;
+    }
+    .student-img{
+        height: 665px;
+    } }
